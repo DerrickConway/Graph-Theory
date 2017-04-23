@@ -3086,3 +3086,73 @@ RETURN r;
 2017-04-23 16:56:16.456+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: MATCH (a)-[r]->(b) WHERE id(a) IN {node_ids}
 AND id(b) IN {new_node_ids}
 RETURN r;
+2017-04-23 17:18:48.153+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [47]:  Starting check pointing...
+2017-04-23 17:18:48.153+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [47]:  Starting store flush...
+2017-04-23 17:18:48.155+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 47 to [C:\Users\User\Documents\Neo4j\default.graphdb\neostore.counts.db.a], from [C:\Users\User\Documents\Neo4j\default.graphdb\neostore.counts.db.b].
+2017-04-23 17:18:48.164+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 47 to [C:\Users\User\Documents\Neo4j\default.graphdb\neostore.counts.db.a], from [C:\Users\User\Documents\Neo4j\default.graphdb\neostore.counts.db.b].
+2017-04-23 17:18:48.377+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [47]:  Store flush completed
+2017-04-23 17:18:48.377+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [47]:  Starting appending check point entry into the tx log...
+2017-04-23 17:18:48.401+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [47]:  Appending check point entry into the tx log completed
+2017-04-23 17:18:48.401+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [47]:  Check pointing completed
+2017-04-23 17:18:48.401+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-23 17:18:48.401+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-23 17:23:48.547+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [48]:  Starting check pointing...
+2017-04-23 17:23:48.547+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [48]:  Starting store flush...
+2017-04-23 17:23:48.547+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 48 to [C:\Users\User\Documents\Neo4j\default.graphdb\neostore.counts.db.b], from [C:\Users\User\Documents\Neo4j\default.graphdb\neostore.counts.db.a].
+2017-04-23 17:23:48.555+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 48 to [C:\Users\User\Documents\Neo4j\default.graphdb\neostore.counts.db.b], from [C:\Users\User\Documents\Neo4j\default.graphdb\neostore.counts.db.a].
+2017-04-23 17:23:48.739+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [48]:  Store flush completed
+2017-04-23 17:23:48.739+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [48]:  Starting appending check point entry into the tx log...
+2017-04-23 17:23:48.763+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [48]:  Appending check point entry into the tx log completed
+2017-04-23 17:23:48.763+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [48]:  Check pointing completed
+2017-04-23 17:23:48.763+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-23 17:23:48.763+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-23 17:45:19.051+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [49]:  Starting check pointing...
+2017-04-23 17:45:19.051+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [49]:  Starting store flush...
+2017-04-23 17:45:19.195+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 49 to [C:\Users\User\Documents\Neo4j\default.graphdb\neostore.counts.db.a], from [C:\Users\User\Documents\Neo4j\default.graphdb\neostore.counts.db.b].
+2017-04-23 17:45:19.203+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 49 to [C:\Users\User\Documents\Neo4j\default.graphdb\neostore.counts.db.a], from [C:\Users\User\Documents\Neo4j\default.graphdb\neostore.counts.db.b].
+2017-04-23 17:45:19.395+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [49]:  Store flush completed
+2017-04-23 17:45:19.395+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [49]:  Starting appending check point entry into the tx log...
+2017-04-23 17:45:19.415+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [49]:  Appending check point entry into the tx log completed
+2017-04-23 17:45:19.415+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [49]:  Check pointing completed
+2017-04-23 17:45:19.419+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-23 17:45:19.419+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-23 17:50:19.566+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [52]:  Starting check pointing...
+2017-04-23 17:50:19.586+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [52]:  Starting store flush...
+2017-04-23 17:50:19.694+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 52 to [C:\Users\User\Documents\Neo4j\default.graphdb\neostore.counts.db.b], from [C:\Users\User\Documents\Neo4j\default.graphdb\neostore.counts.db.a].
+2017-04-23 17:50:19.702+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 52 to [C:\Users\User\Documents\Neo4j\default.graphdb\neostore.counts.db.b], from [C:\Users\User\Documents\Neo4j\default.graphdb\neostore.counts.db.a].
+2017-04-23 17:50:19.898+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [52]:  Store flush completed
+2017-04-23 17:50:19.902+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [52]:  Starting appending check point entry into the tx log...
+2017-04-23 17:50:19.922+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [52]:  Appending check point entry into the tx log completed
+2017-04-23 17:50:19.922+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [52]:  Check pointing completed
+2017-04-23 17:50:19.922+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-23 17:50:19.922+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-23 17:55:19.991+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [53]:  Starting check pointing...
+2017-04-23 17:55:19.991+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [53]:  Starting store flush...
+2017-04-23 17:55:19.991+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 53 to [C:\Users\User\Documents\Neo4j\default.graphdb\neostore.counts.db.a], from [C:\Users\User\Documents\Neo4j\default.graphdb\neostore.counts.db.b].
+2017-04-23 17:55:20.003+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 53 to [C:\Users\User\Documents\Neo4j\default.graphdb\neostore.counts.db.a], from [C:\Users\User\Documents\Neo4j\default.graphdb\neostore.counts.db.b].
+2017-04-23 17:55:20.195+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [53]:  Store flush completed
+2017-04-23 17:55:20.195+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [53]:  Starting appending check point entry into the tx log...
+2017-04-23 17:55:20.219+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [53]:  Appending check point entry into the tx log completed
+2017-04-23 17:55:20.219+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [53]:  Check pointing completed
+2017-04-23 17:55:20.219+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-23 17:55:20.219+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-23 18:36:10.732+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [56]:  Starting check pointing...
+2017-04-23 18:36:10.732+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [56]:  Starting store flush...
+2017-04-23 18:36:11.000+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 56 to [C:\Users\User\Documents\Neo4j\default.graphdb\neostore.counts.db.b], from [C:\Users\User\Documents\Neo4j\default.graphdb\neostore.counts.db.a].
+2017-04-23 18:36:11.012+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 56 to [C:\Users\User\Documents\Neo4j\default.graphdb\neostore.counts.db.b], from [C:\Users\User\Documents\Neo4j\default.graphdb\neostore.counts.db.a].
+2017-04-23 18:36:11.336+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [56]:  Store flush completed
+2017-04-23 18:36:11.336+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [56]:  Starting appending check point entry into the tx log...
+2017-04-23 18:36:11.360+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [56]:  Appending check point entry into the tx log completed
+2017-04-23 18:36:11.360+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [56]:  Check pointing completed
+2017-04-23 18:36:11.360+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-23 18:36:11.360+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-23 18:41:11.436+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [58]:  Starting check pointing...
+2017-04-23 18:41:11.436+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [58]:  Starting store flush...
+2017-04-23 18:41:11.436+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 58 to [C:\Users\User\Documents\Neo4j\default.graphdb\neostore.counts.db.a], from [C:\Users\User\Documents\Neo4j\default.graphdb\neostore.counts.db.b].
+2017-04-23 18:41:11.444+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 58 to [C:\Users\User\Documents\Neo4j\default.graphdb\neostore.counts.db.a], from [C:\Users\User\Documents\Neo4j\default.graphdb\neostore.counts.db.b].
+2017-04-23 18:41:11.708+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [58]:  Store flush completed
+2017-04-23 18:41:11.708+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [58]:  Starting appending check point entry into the tx log...
+2017-04-23 18:41:11.732+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [58]:  Appending check point entry into the tx log completed
+2017-04-23 18:41:11.732+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [58]:  Check pointing completed
+2017-04-23 18:41:11.732+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-23 18:41:11.732+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
