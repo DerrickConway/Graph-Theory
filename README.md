@@ -126,5 +126,8 @@ If i had not hade these issues i would have been confident on finishing the proj
 * https://www.youtube.com/watch?v=1U6iUTV_Dco
 * https://www.youtube.com/watch?v=JhZaCw94r40&t=86s
 * https://www.youtube.com/watch?v=GTZ2JD9l5j0&t=542s
-* https://www.youtube.com/watch?v=Go3P73-KV30
+* https://www.youtube.com/watch?v=Go3P73-KV30  
+
+
+I also asked for advise from afew of my class mates.
 
